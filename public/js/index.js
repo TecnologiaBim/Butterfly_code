@@ -1,0 +1,1 @@
+!function(){function n(){$.ajax({url:"/get_brands",type:"post",contentType:"application/json",data:JSON.stringify({}),success:function(n){var o=n.data[0].image;if(console.log(o),o)for(var e=0;e<o.length;e++);},error:function(n){console.log(n.responseJSON.message)}})}$(document).ready(function(){n()})}();
